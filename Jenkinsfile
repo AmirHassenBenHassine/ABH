@@ -22,7 +22,7 @@ pipeline {
                         
                         Committer : \${GIT_COMMITTER_NAME} (\${GIT_COMMITTER_EMAIL})
                         """,
-                    to: "garaali.marwen@gmail.com",
+                    to: "amirbh07@gmail.com",
                     mimeType: 'text/plain',
                     attachmentsPattern: 'README.txt'
                 )
