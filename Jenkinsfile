@@ -22,9 +22,9 @@ pipeline {
                         
                         Committer : \${GIT_COMMITTER_NAME} (\${GIT_COMMITTER_EMAIL})
                         """,
-                    to: "amirbh07@gmail.com", // Remplacez par l'adresse e-mail de destination
+                    to: "amirbh07@gmail.com",
                     mimeType: 'text/plain',
-                    attachmentsPattern: 'README.txt' // Remplacez par le nom du fichier ou le modèle souhaité
+                    attachmentsPattern: 'README.txt'
                 )
             }
         }
